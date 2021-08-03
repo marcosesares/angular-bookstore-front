@@ -1,5 +1,5 @@
 <form>
-    <h1> Novo Livro </h1>
+    <h1> Atualizando Livro </h1>
 
     <mat-form-field class="form">
         <mat-label>Titulo</mat-label>
@@ -23,7 +23,7 @@
     </mat-form-field>
 
     <div class="buttons">
-        <button (click)="create()" [disabled]="getMessage()" mat-flat-button color="accent" class="mat-elevation-z8">Salvar</button>
+        <button (click)="update()" [disabled]="getMessage()" mat-flat-button color="accent" class="mat-elevation-z8">Salvar</button>
         <button (click)="cancel()"mat-flat-button color="warn" class="mat-elevation-z8">Cancelar</button>
     </div>
 </form>
